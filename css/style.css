@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0D0D22;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: black;
+}
+
+#izquierda {
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+#centro {
+    float: left;
+    width: 68%;
+    height: 100%;
+}
+
+#derecha {
+    float: left;
+    padding-top: 5px;
+    width: 17%;
+    height: 65px;
+}
+
+#logoEpic {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#logoEpic:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+#logoRocket {
+    width: 70px;
+    filter: invert(100%);
+    margin-left: 35px;
+}
+#logoRocket:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    margin-right: 25px;
+    line-height: 70px;
+}
+nav a:hover {
+    opacity: 70%;
+}
+
+#navDerecha {
+    float: right;
+    text-align: right;
+    width: 20%;
+    height: 100%; 
+}
+
+#navDerecha img:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+#lupa {
+   filter: grayscale(100%) invert(1) brightness(110%);   
+   width: 25px;
+   margin-top: 23px;
+}
+
+#globo{
+    filter: invert(100%) brightness(110%);
+    width: 25px;
+    margin-left: 30px;
+}
+
+#derecha a {
+    line-height: 60px;
+    text-decoration: none;
+}
+
+#iniciar {
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 9px 14px 9px 14px;
+    background-color: rgb(60, 60, 60);
+    border-radius: 5px;
+}
+#iniciar:hover {
+    background-color: rgb(105, 105, 105);
+}
+
+#jugar {
+    color: black;
+    background-color: orange;
+    padding: 9px 14px 9px 14px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#jugar:hover {
+    background-color: rgb(255, 132, 0);
+}
+
+
+
+#rocketleague {
+    padding-top: 75px;
+    width: 100%;
+    height: 700px;
+}
+
+
+#newseason {
+    float: left;
+    margin-top: 100px;
+    margin-left: 8%;
+    width: 32%;
+    height: 500px;
+    text-align: center;
+}
+
+#newseason p {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+
+#season20 {
+    width: 450px;
+}
+
+#trailer {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #E87722;
+    padding: 13px 18px 13px 18px;
+    border-radius: 10px;
+}
+#trailer:hover {
+    border: 3px solid rgb(232, 230, 230);
+}
+
+#info {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #485FC7;
+    padding: 11px 18px 11px 18px;
+    border-radius: 10px;
+    line-height: 120px;
+}
+#info:hover {
+    border: 3px solid rgb(232, 230, 230);
+}
